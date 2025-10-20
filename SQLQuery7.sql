@@ -1,10 +1,9 @@
-create table persons(
-	id int not null,
-	person_name varchar(50) not null,
-	birth_date date ,
-	phone varchar(15) not null,
-	constraint pk_person primary key(id)
-)
+select * from customers
 
-select * 
-from persons
+update customers
+set score=0
+where score is null
+
+select *
+from customers
+where score is null

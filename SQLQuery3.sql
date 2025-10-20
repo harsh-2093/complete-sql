@@ -1,4 +1,6 @@
-select top 2
-*
-from orders
-order by order_date desc
+create table persons(
+id int not null,
+person_name varchar(50) not null,
+birth_date date,
+phone varchar(15) not null
+)

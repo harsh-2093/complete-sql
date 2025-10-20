@@ -1,5 +1,6 @@
-select
-id,
-first_name,
-'new_customer' as customer_type
+select *
 from customers
+
+update customers
+set score=0
+where id =6

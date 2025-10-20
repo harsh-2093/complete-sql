@@ -1,5 +1,7 @@
-select *
+select* 
 from customers
-where country ='Germany'
 
-select * from orders
+update customers
+set country='UK',
+	score=0
+where id =2
